@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #83bf9c;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  flex-basis: 48%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #0f0e0e;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #943f3f;
+}
+
+form {
+  margin-top: 10px;
+}
